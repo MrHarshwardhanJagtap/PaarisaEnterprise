@@ -25,7 +25,7 @@ app.use('/api/stocklogs', stockLogRoutes);
 
 const PORT = process.env.PORT || 5001;
 
-if (new Date() < new Date('2026-02-22')) {
+if (new Date() < new Date('2026-03-22')) {
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
   });
